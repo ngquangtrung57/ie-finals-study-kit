@@ -13,6 +13,9 @@ Each kit holds, for its course:
   "playbooks" (exam recipes), common traps, and a priority strip that says how often each topic comes in past papers.
   Every section says which block of the cheatsheet to use.
 - **Cheatsheet** (PDF, 2 sides of A4, colour): one sheet for a restricted open-book exam.
+- **Exam how-to book** (PDF, IE4476: 109 pages, IE4483: 122 pages, new in v1.1): the short, practical version of the
+  notes. For each exam task: the steps, one worked example, a practice question with its step-by-step solution right
+  after it, the traps, and a revise box at the end of each part. Every acronym is written out in full at its first use.
 - **Past-paper worked solutions**:
   - a PDF book (IE4476: 3 papers, 12 questions; IE4483: 4 papers, 16 questions), and
   - **click-to-reveal pages** (HTML): nothing is shown at first. For each part you open the cheatsheet hint,
@@ -46,6 +49,7 @@ After you unzip, the files you need are in `IE44xx-study/study/IE44xx/` (replace
 |---|---|---|
 | `IE44xx_notes.pdf` | Study notes | Any PDF reader. The links (chapter, PYP tags, cheatsheet tags) are clickable. |
 | `IE44xx_cheatsheet.pdf` | 2-sided A4 cheatsheet | Print on **one A4 sheet, double-sided, in colour, at 100 % scale** (not "fit to page"). |
+| `IE44xx_howto.pdf` | Exam how-to book (short version: steps, example, practice) | Any PDF reader. Start here if the notes are too long. |
 | `IE44xx_pyp_solutions.pdf` | Past-paper solutions book | Any PDF reader. Shows everything (no hiding). |
 | `pyp_solutions/index.html` | Click-to-reveal past-paper pages | Open in a browser (double-click). Start here to pick a question. |
 | `animations/index.html` | Algorithm animations | Open in a browser. Use the play / step buttons. |
@@ -68,9 +72,9 @@ Notes:
 
 ## Rebuild (optional, advanced)
 
-The sources are LaTeX (`chapters/*.tex`, `cheatsheet/*.tex`, `pyp/sol/*.tex`) and Python (`common/tools/`, check
+The sources are LaTeX (`chapters/*.tex`, `howto/*.tex`, `cheatsheet/*.tex`, `pyp/sol/*.tex`) and Python (`common/tools/`, check
 scripts in `pyp/sol/check/`). To rebuild you need a TeX Live installation (pdflatex, with TikZ, forest, tcolorbox,
-booktabs) and Python 3 with PyMuPDF. The build scripts (`build_book.sh`, `build_chapter.sh`, `build_cheat.sh`,
+booktabs) and Python 3 with PyMuPDF. The build scripts (`build_book.sh`, `build_chapter.sh`, `build_cheat.sh`, `build_howto.sh`,
 `common/tools/pyp_build.py`) contain absolute paths of the author's machine in their `R=` / `B=` variables: change them
 first. Some steps (`assemble.py`, `crop_slide.py`) need the original course PDFs, which are not included.
 The check scripts run standalone: `python3 IE44xx/pyp/sol/check/<exam>_Q<n>.py` recomputes every number of a solution.
