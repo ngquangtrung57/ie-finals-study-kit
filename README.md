@@ -13,9 +13,11 @@ Each kit holds, for its course:
   "playbooks" (exam recipes), common traps, and a priority strip that says how often each topic comes in past papers.
   Every section says which block of the cheatsheet to use.
 - **Cheatsheet** (PDF, 2 sides of A4, colour): one sheet for a restricted open-book exam.
-- **Exam how-to book** (PDF, IE4476: 109 pages, IE4483: 122 pages, new in v1.1): the short, practical version of the
-  notes. For each exam task: the steps, one worked example, a practice question with its step-by-step solution right
-  after it, the traps, and a revise box at the end of each part. Every acronym is written out in full at its first use.
+- **Exam how-to book** (PDF, IE4476: 213 pages, IE4483: 244 pages; rewritten in v1.2): the practical version of the
+  notes, without background theory. For each exam task, one example is solved step by step: each step gives the
+  general rule, then the same step on the example, with a picture whenever the step changes something you can draw.
+  Every formula has a list that says what each symbol means. Then come the traps, a practice question with its
+  step-by-step solution, and a revise box at the end of each part.
 - **Past-paper worked solutions**:
   - a PDF book (IE4476: 3 papers, 12 questions; IE4483: 4 papers, 16 questions), and
   - **click-to-reveal pages** (HTML): nothing is shown at first. For each part you open the cheatsheet hint,
@@ -49,7 +51,7 @@ After you unzip, the files you need are in `IE44xx-study/study/IE44xx/` (replace
 |---|---|---|
 | `IE44xx_notes.pdf` | Study notes | Any PDF reader. The links (chapter, PYP tags, cheatsheet tags) are clickable. |
 | `IE44xx_cheatsheet.pdf` | 2-sided A4 cheatsheet | Print on **one A4 sheet, double-sided, in colour, at 100 % scale** (not "fit to page"). |
-| `IE44xx_howto.pdf` | Exam how-to book (short version: steps, example, practice) | Any PDF reader. Start here if the notes are too long. |
+| `IE44xx_howto.pdf` | Exam how-to book (step by step: rule, example, picture, practice) | Any PDF reader. Start here if the notes are too long. |
 | `IE44xx_pyp_solutions.pdf` | Past-paper solutions book | Any PDF reader. Shows everything (no hiding). |
 | `pyp_solutions/index.html` | Click-to-reveal past-paper pages | Open in a browser (double-click). Start here to pick a question. |
 | `animations/index.html` | Algorithm animations | Open in a browser. Use the play / step buttons. |
