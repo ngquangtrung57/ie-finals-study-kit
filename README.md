@@ -13,6 +13,8 @@ Each kit holds, for its course:
   "playbooks" (exam recipes), common traps, and a priority strip that says how often each topic comes in past papers.
   Every section says which block of the cheatsheet to use.
 - **Cheatsheet** (PDF, 2 sides of A4, colour): one sheet for a restricted open-book exam.
+  IE4483 (v1.3): the 10 concepts with the most past-paper marks each show a typical question solved step by step
+  (rule, then the working on the example); the other topics keep their formulas, procedure, one example and traps.
 - **Exam how-to book** (PDF, IE4476: 213 pages, IE4483: 244 pages; rewritten in v1.2): the practical version of the
   notes, without background theory. For each exam task, one example is solved step by step: each step gives the
   general rule, then the same step on the example, with a picture whenever the step changes something you can draw.
