@@ -16,11 +16,15 @@ Each kit holds, for its course:
   Both courses (v1.4): the concepts with the most past-paper marks each show a typical question solved step by step
   (rule, then the working on the example), with working tables where a step repeats a calculation (for example the
   backprop link, forward, delta and update tables); the other topics keep their formulas, procedure, one example and traps.
+  v1.5: a white badge at the right of a coloured bar, for example **Q2 3/4**, means that this block was asked as Q2 in
+  3 of the 4 past papers. Blocks with no fixed question number have no badge.
 - **Exam how-to book** (PDF, IE4476: 213 pages, IE4483: 244 pages; rewritten in v1.2): the practical version of the
   notes, without background theory. For each exam task, one example is solved step by step: each step gives the
   general rule, then the same step on the example, with a picture whenever the step changes something you can draw.
   Every formula has a list that says what each symbol means. Then come the traps, a practice question with its
   step-by-step solution, and a revise box at the end of each part.
+  IE4476 also has a short version (v1.5, 116 pages): only the sections asked in the 3 past papers and the sections
+  they need, with the same section numbers as the full book.
 - **Past-paper worked solutions**:
   - a PDF book (IE4476: 3 papers, 12 questions; IE4483: 4 papers, 16 questions), and
   - **click-to-reveal pages** (HTML): nothing is shown at first. For each part you open the cheatsheet hint,
@@ -55,6 +59,7 @@ After you unzip, the files you need are in `IE44xx-study/study/IE44xx/` (replace
 | `IE44xx_notes.pdf` | Study notes | Any PDF reader. The links (chapter, PYP tags, cheatsheet tags) are clickable. |
 | `IE44xx_cheatsheet.pdf` | 2-sided A4 cheatsheet | Print on **one A4 sheet, double-sided, in colour, at 100 % scale** (not "fit to page"). |
 | `IE44xx_howto.pdf` | Exam how-to book (step by step: rule, example, picture, practice) | Any PDF reader. Start here if the notes are too long. |
+| `IE4476_howto_short.pdf` | Short IE4476 how-to: asked topics only | Any PDF reader. |
 | `IE44xx_pyp_solutions.pdf` | Past-paper solutions book | Any PDF reader. Shows everything (no hiding). |
 | `pyp_solutions/index.html` | Click-to-reveal past-paper pages | Open in a browser (double-click). Start here to pick a question. |
 | `animations/index.html` | Algorithm animations | Open in a browser. Use the play / step buttons. |
