@@ -22,6 +22,8 @@ Each kit holds, for its course:
   paper asks, a WHICH CASE? table, plain-word steps that follow the lecture or tutorial method, a worked example with
   named numbers, and a WRITE box. Side 2 = Part B, general knowledge B1-B13. About 3.9 pt font, larger bottom margin.
   The old IE4476 sheet is kept as `IE4476_cheatsheet_v2.pdf`.
+  v1.7: each IE4476 card has a **FINAL ANSWER** line (what to hand in for each way the paper asks), and B12 lists
+  what the final answer must show for each paper word (express, derive, design, decide, compute, plot, ...).
 - **Exam how-to book** (PDF, IE4476: 213 pages, IE4483: 244 pages; rewritten in v1.2): the practical version of the
   notes, without background theory. For each exam task, one example is solved step by step: each step gives the
   general rule, then the same step on the example, with a picture whenever the step changes something you can draw.
