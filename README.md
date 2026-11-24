@@ -18,6 +18,10 @@ Each kit holds, for its course:
   backprop link, forward, delta and update tables); the other topics keep their formulas, procedure, one example and traps.
   v1.5: a white badge at the right of a coloured bar, for example **Q2 3/4**, means that this block was asked as Q2 in
   3 of the 4 past papers. Blocks with no fixed question number have no badge.
+  **IE4476 v1.6: new sheet (v3).** Side 1 = Part A, the exam pattern: cards A1-A10 in paper order, each with what the
+  paper asks, a WHICH CASE? table, plain-word steps that follow the lecture or tutorial method, a worked example with
+  named numbers, and a WRITE box. Side 2 = Part B, general knowledge B1-B13. About 3.9 pt font, larger bottom margin.
+  The old IE4476 sheet is kept as `IE4476_cheatsheet_v2.pdf`.
 - **Exam how-to book** (PDF, IE4476: 213 pages, IE4483: 244 pages; rewritten in v1.2): the practical version of the
   notes, without background theory. For each exam task, one example is solved step by step: each step gives the
   general rule, then the same step on the example, with a picture whenever the step changes something you can draw.
@@ -72,6 +76,7 @@ Notes:
 - Suggested way to study a past paper: try the question on paper first. Then open only the **Cheatsheet hint**.
   Then **Final answer** to check. Use **Next step** only where you are stuck, and read the **Explanation** last.
 - "Side S, block N" in the notes and solutions means: cheatsheet side S (1 or 2), coloured bar number N.
+  For IE4476 these links point to the old sheet `IE4476_cheatsheet_v2.pdf`.
 
 ## What is not included
 
@@ -84,7 +89,7 @@ Notes:
 
 The sources are LaTeX (`chapters/*.tex`, `howto/*.tex`, `cheatsheet/*.tex`, `pyp/sol/*.tex`) and Python (`common/tools/`, check
 scripts in `pyp/sol/check/`). To rebuild you need a TeX Live installation (pdflatex, with TikZ, forest, tcolorbox,
-booktabs) and Python 3 with PyMuPDF. The build scripts (`build_book.sh`, `build_chapter.sh`, `build_cheat.sh`, `build_howto.sh`,
+booktabs) and Python 3 with PyMuPDF. The build scripts (`build_book.sh`, `build_chapter.sh`, `build_cheat.sh`, `build_cheat3.sh`, `build_howto.sh`,
 `common/tools/pyp_build.py`) contain absolute paths of the author's machine in their `R=` / `B=` variables: change them
 first. Some steps (`assemble.py`, `crop_slide.py`) need the original course PDFs, which are not included.
 The check scripts run standalone: `python3 IE44xx/pyp/sol/check/<exam>_Q<n>.py` recomputes every number of a solution.
