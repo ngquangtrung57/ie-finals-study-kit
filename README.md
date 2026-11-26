@@ -18,12 +18,17 @@ Each kit holds, for its course:
   backprop link, forward, delta and update tables); the other topics keep their formulas, procedure, one example and traps.
   v1.5: a white badge at the right of a coloured bar, for example **Q2 3/4**, means that this block was asked as Q2 in
   3 of the 4 past papers. Blocks with no fixed question number have no badge.
-  **IE4476 v1.6: new sheet (v3).** Side 1 = Part A, the exam pattern: cards A1-A10 in paper order, each with what the
-  paper asks, a WHICH CASE? table, plain-word steps that follow the lecture or tutorial method, a worked example with
-  named numbers, and a WRITE box. Side 2 = Part B, general knowledge B1-B13. About 3.9 pt font, larger bottom margin.
+  **IE4476 sheet (v3, current v1.14).** Side 1 = Part A, the exam pattern: cards A1-A10 (Q1 restoration and
+  histograms, Q2 Bayes, Q3 linear transforms and distances, Q4 networks), each with the paper's own words, a
+  **FINAL ANSWER** line (what to hand in), a WHICH CASE? table (bold condition column), steps, worked examples with
+  named numbers, **ASSUME** lines (assumptions to write), **WHERE** lines (each symbol, what it is, how to get it),
+  WRITE boxes and traps (!). Side 1 ends with a TOOLKIT card: a routine for a formula you have not seen and the
+  building blocks (mean, covariance, 2x2 inverse, dot product, complex numbers, sinc, Phi). Side 2 = Part B: B1-B9
+  general knowledge in lecture order, B12 "paper word -> final answer" (words marked (L) are lecture words), B2 cont.
+  Weight: the 2425 and 2526 papers and the tutorials (2324 is low weight). About 3.8 pt font.
   The old IE4476 sheet is kept as `IE4476_cheatsheet_v2.pdf`.
-  v1.7: each IE4476 card has a **FINAL ANSWER** line (what to hand in for each way the paper asks), and B12 lists
-  what the final answer must show for each paper word (express, derive, design, decide, compute, plot, ...).
+  **IE4483 sheet (v2, v1.11):** every block has a **PAPER WORDS** line (the papers' exact wording) and a
+  **FINAL ANSWER** line, one pair for each question type.
 - **Exam how-to book** (PDF, IE4476: 213 pages, IE4483: 244 pages; rewritten in v1.2): the practical version of the
   notes, without background theory. For each exam task, one example is solved step by step: each step gives the
   general rule, then the same step on the example, with a picture whenever the step changes something you can draw.
